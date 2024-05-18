@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="CO.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="C.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Comaku Pasta</title>
+</head>
+
+<body>
+    <header>
+        <h1>COMAKU PASTA</h1>
+
+        <section class="menu">
+            <ul class="menu-list">
+                <li class="active">Home</li>
+                <li><a href="C1.html">Prices</a></li>
+                <li><a href="c2.HTML">How It Works</a></li>
+            </ul>
+
+            <button>
+                <i class="fas fa-times"></i>
+                <i class="fas fa-bars"></i>
+            </button>
+        </section>
+    </header>
+
+    <section class="main">
+
+        <section class="left">
+            <p class="title">Delivery Service</p>
+            <p class="msg">Welcome to Comaku Pasta, where every dish is a Taste Of Goodness! Whether you're a seasoned pasta lover or a newcomer eager to explore the rich flavors and timeless traditions of Comaku cuisine, you’ve come to the right place. Our website is dedicated to deliver delicious Pasta to your hostel.</p>
+            <button class="cta"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdyJlF7nlNVecuN1co-0qY_XON2wbzn4Eq_DN15zi5dM7uccQ/viewform?usp=sf_link">BOOK NOW</a></button>
+        </section>
+
+        <section class="right">
+            <img src="pasta.PNG" alt="Langing image">
+        </section>
+
+
+
+    </section>
+
+    <script>
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu button');
+        menuBtn.addEventListener('click', () => {
+            menu.classList.toggle('opened')
+        })
+    </script>
+
+
+</body>
+
+</html>
